@@ -1,0 +1,48 @@
+{
+  "name": "kevin-ai-memory-daemon",
+  "version": "1.0.0",
+  "description": "Revolutionary AI Memory Daemon - Continuous background memory management and chat persistence for Kevin Gardner's AI system",
+  "main": "memory-daemon.js",
+  "scripts": {
+    "start": "node memory-daemon.js start",
+    "stop": "node memory-daemon.js stop",
+    "status": "node memory-daemon.js status",
+    "restart": "node memory-daemon.js restart",
+    "install-service": "node install-service.js",
+    "dev": "nodemon memory-daemon.js start"
+  },
+  "bin": {
+    "memory-daemon": "./memory-daemon.js"
+  },
+  "keywords": [
+    "ai-memory",
+    "kevin-gardner",
+    "prometheus",
+    "memory-architecture",
+    "daemon",
+    "background-service",
+    "chat-persistence",
+    "vector-database",
+    "mongodb",
+    "ai-continuity"
+  ],
+  "author": "Kevin Gardner",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devklg/kevin-ai-memory-daemon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devklg/kevin-ai-memory-daemon/issues"
+  },
+  "homepage": "https://github.com/devklg/kevin-ai-memory-daemon#readme"
+}
